@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Экскурсии по Сочи - Лучшие туры по Черноморскому побережью</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-gradient-primary sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark py-3">
+                <div class="container-fluid">
+                    <a class="navbar-brand fw-bold fs-3" href="#">
+                        <i class="fas fa-map-marked-alt me-2"></i>
+                        Экскурсии<span class="text-warning">Сочи</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                            <li class="nav-item me-3">
+                                <div class="text-white">
+                                    <i class="fas fa-phone me-2"></i>
+                                    <a href="tel:89531111422" class="text-white text-decoration-none">+7 (953) 111-14-22</a>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#feedback" class="btn btn-secondary-custom">Забронировать</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="container text-center">
+            <h1 class="display-4 fw-bold mb-4">Лучшие экскурсии по Сочи и Красной Поляне</h1>
+            <p class="lead mb-5 mx-auto" style="max-width: 700px;">
+                Откройте для себя удивительные места Черноморского побережья с профессиональными гидами. 
+                Индивидуальные и групповые туры по доступным ценам.
+            </p>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <a href="#tours" class="btn btn-secondary-custom btn-lg px-4">Выбрать экскурсию</a>
+                <a href="#feedback" class="btn btn-outline-light btn-lg px-4">Получить консультацию</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation -->
+    <section class="py-4 bg-light">
+        <div class="container">
+            <ul class="nav nav-pills nav-pills-custom justify-content-center flex-nowrap overflow-auto pb-2">
+                <li class="nav-item">
+                    <button class="nav-link active" data-bs-toggle="pill" data-bs-target="#one-day">Однодневные экскурсии</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#two-day">Двухдневные туры</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#three-day">Трехдневные программы</button>
+                </li>
+                <li class="nav-item">
+                    <button class="nav-link" data-bs-toggle="pill" data-bs-target="#premium">Премиум экскурсии</button>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Tours Section -->
+    <section class="py-5" id="tours">
+        <div class="container">
+            <h2 class="text-center section-title">Наши экскурсии</h2>
+            
+            <div class="tab-content">
+                <!-- One-day tours -->
+                <div class="tab-pane fade show active" id="one-day">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card tour-card h-100">
+                                <div class="tour-img" style="background-image: url('https://images.unsplash.com/photo-1596484552994-f9b2d97cf63f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title text-primary-custom">Обзорная экскурсия по Сочи</h5>
+                                    <p class="card-text text-muted">Знакомство с главными достопримечательностями города-курорта</p>
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="price-tag">2500 руб.</span>
+                                        <span class="duration-badge">8 часов</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <h6 class="text-primary-custom">Основные достопримечательности:</h6>
+                                        <ul class="list-unstyled">
+                                            <li><i class="fas fa-check text-success me-2"></i>Морской порт Сочи</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Парк Ривьера</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Сочинский дендрарий</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Олимпийский парк</li>
+                                        </ul>
+                                    </div>
+                                    <a href="#feedback" class="btn btn-primary-custom mt-auto">Забронировать</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card tour-card h-100">
+                                <div class="popular-badge">Популярно</div>
+                                <div class="tour-img" style="background-image: url('https://images.unsplash.com/photo-1620128303123-99e70e0656d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title text-primary-custom">Красная Поляна и горные вершины</h5>
+                                    <p class="card-text text-muted">Путешествие в горный кластер Олимпиады с подъемом на канатной дороге</p>
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="price-tag">3000 руб.</span>
+                                        <span class="duration-badge">10 часов</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <h6 class="text-primary-custom">Основные достопримечательности:</h6>
+                                        <ul class="list-unstyled">
+                                            <li><i class="fas fa-check text-success me-2"></i>Канатная дорога "Газпром"</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Роза Хутор</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Горки Город</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Смотровые площадки</li>
+                                        </ul>
+                                    </div>
+                                    <a href="#feedback" class="btn btn-primary-custom mt-auto">Забронировать</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card tour-card h-100">
+                                <div class="tour-img" style="background-image: url('https://images.unsplash.com/photo-1594736797933-d0c1382ff7d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title text-primary-custom">Водопады и каньоны</h5>
+                                    <p class="card-text text-muted">Экскурсия к самым красивым водопадам и каньонам Сочинского региона</p>
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="price-tag">2800 руб.</span>
+                                        <span class="duration-badge">9 часов</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <h6 class="text-primary-custom">Основные достопримечательности:</h6>
+                                        <ul class="list-unstyled">
+                                            <li><i class="fas fa-check text-success me-2"></i>33 водопада</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Агурские водопады</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Ореховский водопад</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Каньон Псахо</li>
+                                        </ul>
+                                    </div>
+                                    <a href="#feedback" class="btn btn-primary-custom mt-auto">Забронировать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Two-day tours -->
+                <div class="tab-pane fade" id="two-day">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card tour-card h-100">
+                                <div class="tour-img" style="background-image: url('https://images.unsplash.com/photo-1603578428529-011df067b8d0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title text-primary-custom">Сочи + Абхазия</h5>
+                                    <p class="card-text text-muted">Двухдневное путешествие по Сочи и соседней Абхазии с ночевкой в гостинице</p>
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="price-tag">6500 руб.</span>
+                                        <span class="duration-badge">2 дня</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <h6 class="text-primary-custom">Основные достопримечательности:</h6>
+                                        <ul class="list-unstyled">
+                                            <li><i class="fas fa-check text-success me-2"></i>Озеро Рица</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Гегский водопад</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Новый Афон</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Дача Сталина</li>
+                                        </ul>
+                                    </div>
+                                    <a href="#feedback" class="btn btn-primary-custom mt-auto">Забронировать</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card tour-card h-100">
+                                <div class="tour-img" style="background-image: url('https://images.unsplash.com/photo-1598890777037-a2c107a65dcc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title text-primary-custom">Горное кольцо Сочи</h5>
+                                    <p class="card-text text-muted">Экскурсия по самым живописным горным маршрутам с посещением каньонов и водопадов</p>
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="price-tag">5800 руб.</span>
+                                        <span class="duration-badge">2 дня</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <h6 class="text-primary-custom">Основные достопримечательности:</h6>
+                                        <ul class="list-unstyled">
+                                            <li><i class="fas fa-check text-success me-2"></i>33 водопада</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Каньон Псахо</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Тисо-самшитовая роща</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Агурские водопады</li>
+                                        </ul>
+                                    </div>
+                                    <a href="#feedback" class="btn btn-primary-custom mt-auto">Забронировать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Three-day tours -->
+                <div class="tab-pane fade" id="three-day">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card tour-card h-100">
+                                <div class="tour-img" style="background-image: url('https://images.unsplash.com/photo-1594736797933-d0c1382ff7d6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title text-primary-custom">Полное погружение в Сочи</h5>
+                                    <p class="card-text text-muted">Трехдневный тур по всем значимым местам региона с комфортабельным размещением</p>
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="price-tag">9500 руб.</span>
+                                        <span class="duration-badge">3 дня</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <h6 class="text-primary-custom">Основные достопримечательности:</h6>
+                                        <ul class="list-unstyled">
+                                            <li><i class="fas fa-check text-success me-2"></i>Все парки Сочи</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Горные курорты</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Абхазия</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Морская прогулка</li>
+                                        </ul>
+                                    </div>
+                                    <a href="#feedback" class="btn btn-primary-custom mt-auto">Забронировать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Premium tours -->
+                <div class="tab-pane fade" id="premium">
+                    <div class="row g-4">
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card tour-card h-100">
+                                <div class="popular-badge">VIP</div>
+                                <div class="tour-img" style="background-image: url('https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80');"></div>
+                                <div class="card-body d-flex flex-column">
+                                    <h5 class="card-title text-primary-custom">Эксклюзивный тур "Сочи Премиум"</h5>
+                                    <p class="card-text text-muted">Тур с максимальным комфортом и индивидуальной программой по вашему желанию</p>
+                                    <div class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="price-tag">15000 руб.</span>
+                                        <span class="duration-badge">3 дня</span>
+                                    </div>
+                                    <div class="mb-3">
+                                        <h6 class="text-primary-custom">Основные достопримечательности:</h6>
+                                        <ul class="list-unstyled">
+                                            <li><i class="fas fa-check text-success me-2"></i>VIP транспорт</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Дегустации</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Фотосессии</li>
+                                            <li><i class="fas fa-check text-success me-2"></i>Эксклюзивные локации</li>
+                                        </ul>
+                                    </div>
+                                    <a href="#feedback" class="btn btn-primary-custom mt-auto">Забронировать</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="text-center section-title">Почему выбирают нас</h2>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h5 class="text-primary-custom">Профессиональные гиды</h5>
+                    <p class="text-muted">Наши гиды имеют аккредитацию и многолетний опыт работы</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h5 class="text-primary-custom">Комфортный транспорт</h5>
+                    <p class="text-muted">Современные микроавтобусы с кондиционером</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-ruble-sign"></i>
+                    </div>
+                    <h5 class="text-primary-custom">Доступные цены</h5>
+                    <p class="text-muted">Предлагаем лучшие цены на экскурсии в Сочи</p>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <div class="feature-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h5 class="text-primary-custom">Индивидуальный подход</h5>
+                    <p class="text-muted">Составим программу с учетом ваших пожеланий</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback Form -->
+    <section class="py-5 bg-gradient-primary" id="feedback">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <div class="card shadow">
+                        <div class="card-body p-4 p-md-5">
+                            <h2 class="text-center text-primary-custom mb-4">Забронируйте экскурсию</h2>
+                            <p class="text-center text-muted mb-4">Оставьте заявку и мы перезвоним вам в течение 15 минут</p>
+                            <form id="feedbackForm">
+                                <div class="mb-4">
+                                    <label for="name" class="form-label">Ваше имя *</label>
+                                    <input type="text" class="form-control" id="name" placeholder="Введите ваше имя" required>
+                                </div>
+                                <div class="mb-4">
+                                    <label for="phone" class="form-label">Номер телефона *</label>
+                                    <input type="tel" class="form-control" id="phone" placeholder="+7 (___) ___-__-__" required>
+                                </div>
+                                <button type="submit" class="btn btn-secondary-custom w-100 py-3 fs-5">Забронировать экскурсию</button>
+                                <p class="text-muted small mt-3 text-center">
+                                    Нажимая кнопку, вы соглашаетесь с условиями обработки персональных данных
+                                </p>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="text-warning mb-3">Экскурсии по Сочи</h5>
+                    <p class="text-light">Лучшие туры по Черноморскому побережью с профессиональными гидами. Индивидуальный подход к каждому клиенту.</p>
+                </div>
+                <div class="col-lg-2">
+                    <h5 class="text-warning mb-3">Наши экскурсии</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#one-day">Однодневные туры</a></li>
+                        <li class="mb-2"><a href="#two-day">Двухдневные программы</a></li>
+                        <li class="mb-2"><a href="#three-day">Трехдневные туры</a></li>
+                        <li class="mb-2"><a href="#premium">Премиум экскурсии</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="text-warning mb-3">Контакты</h5>
+                    <div class="contact-info-item text-light">
+                        <i class="fas fa-phone"></i>
+                        <span>+7 (953) 111-14-22</span>
+                    </div>
+                    <div class="contact-info-item text-light">
+                        <i class="fas fa-envelope"></i>
+                        <span>info@excursion-sochi.ru</span>
+                    </div>
+                    <div class="contact-info-item text-light">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>г. Сочи, ул. Курортная, 25</span>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                    <h5 class="text-warning mb-3">Мы в соцсетях</h5>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="text-light fs-5"><i class="fab fa-vk"></i></a>
+                        <a href="#" class="text-light fs-5"><i class="fab fa-telegram"></i></a>
+                        <a href="#" class="text-light fs-5"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-light fs-5"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="my-4 bg-light">
+            <div class="text-center text-light">
+                <p class="mb-0">© 2024 Экскурсии по Сочи. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

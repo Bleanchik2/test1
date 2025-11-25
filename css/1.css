@@ -1,0 +1,213 @@
+:root {
+    --primary: #0A4DA2;
+    --secondary: #FF6B00;
+    --accent: #00A896;
+    --light: #F8F9FA;
+    --dark: #212529;
+    --gray: #6C757D;
+}
+
+body {
+    font-family: 'Montserrat', 'Arial', sans-serif;
+    line-height: 1.6;
+    color: var(--dark);
+}
+
+.bg-primary-custom {
+    background-color: var(--primary) !important;
+}
+
+.bg-gradient-primary {
+    background: linear-gradient(135deg, var(--primary), #0A6BD6) !important;
+}
+
+.text-primary-custom {
+    color: var(--primary) !important;
+}
+
+.btn-primary-custom {
+    background-color: var(--primary);
+    border-color: var(--primary);
+    color: white;
+}
+
+.btn-primary-custom:hover {
+    background-color: #093d87;
+    border-color: #093d87;
+    color: white;
+}
+
+.btn-secondary-custom {
+    background-color: var(--secondary);
+    border-color: var(--secondary);
+    color: white;
+}
+
+.btn-secondary-custom:hover {
+    background-color: #e55a00;
+    border-color: #e55a00;
+    color: white;
+}
+
+.nav-pills-custom .nav-link {
+    color: var(--dark);
+    background: white;
+    margin: 0 5px;
+    border-radius: 30px;
+    font-weight: 600;
+    border: none;
+}
+
+.nav-pills-custom .nav-link.active {
+    background-color: var(--primary);
+    color: white;
+}
+
+.hero-section {
+    background: linear-gradient(rgba(10, 77, 162, 0.8), rgba(10, 77, 162, 0.9)), url('https://images.unsplash.com/photo-1596484552994-f9b2d97cf63f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0;
+}
+
+.section-title {
+    position: relative;
+    margin-bottom: 3rem;
+}
+
+.section-title:after {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 4px;
+    background: var(--secondary);
+    margin: 15px auto;
+    border-radius: 2px;
+}
+
+.tour-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    height: 100%;
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.tour-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.tour-img {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+.price-tag {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--secondary);
+}
+
+.duration-badge {
+    background: var(--light);
+    color: var(--dark);
+    padding: 0.4rem 0.8rem;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.popular-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: var(--secondary);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    z-index: 1;
+}
+
+.feature-icon {
+    font-size: 2.5rem;
+    color: var(--primary);
+    margin-bottom: 1rem;
+}
+
+.contact-info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.contact-info-item i {
+    margin-right: 10px;
+    color: var(--primary);
+    width: 20px;
+}
+
+.footer {
+    background-color: var(--dark);
+    color: white;
+}
+
+.footer a {
+    color: #ddd;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer a:hover {
+    color: var(--secondary);
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.25rem rgba(10, 77, 162, 0.25);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease forwards;
+}
+
+/* Стили для формы */
+.form-control {
+    padding: 12px 15px;
+    border: 2px solid #e9ecef;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 0.25rem rgba(10, 77, 162, 0.15);
+}
+
+.form-label {
+    font-weight: 600;
+    color: var(--dark);
+    margin-bottom: 8px;
+}
+
+/* Стили для модального окна */
+.modal-content {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+}
+
+.modal-body {
+    padding: 2rem;
+}
